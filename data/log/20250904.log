@@ -1,0 +1,117 @@
+Sep 04 01:44:10  [info] -- (::1) op.Login.php 
+Sep 04 01:44:10  [info] Authentication service 'db'
+Sep 04 01:44:10  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 04 01:44:20  [info] admin (::1) op.LockDocument.php?documentid=5&formtoken=a99fec123e31ae629369b9b9971b6fce 
+Sep 04 01:44:24  [info] admin (::1) op.UnlockDocument.php?documentid=5&formtoken=219a829b44523ede03a9473e4f7fcfd3 
+Sep 04 01:52:26  [info] admin (::1) op.DefaultKeywords.php .php&action=addcategory&categoryid=1
+Sep 04 01:53:11  [info] admin (::1) op.ClearCache.php 
+Sep 04 02:18:24  [info] admin (::1) op.GroupMgr.php ?groupid=1&userid=3&action=tmanager
+Sep 04 02:20:23  [info] admin (::1) op.GroupMgr.php ?groupid=1&userid=3&action=tmanager
+Sep 04 02:20:27  [info] admin (::1) op.GroupMgr.php ?groupid=1&userid=3&action=tmanager
+Sep 04 02:20:30  [info] admin (::1) op.GroupMgr.php ?groupid=1&userid=3&action=tmanager
+Sep 04 02:20:34  [info] admin (::1) op.GroupMgr.php ?groupid=1&userid=1&action=tmanager
+Sep 04 02:20:38  [info] admin (::1) op.GroupMgr.php ?groupid=1&userid=4&action=tmanager
+Sep 04 02:20:58  [info] admin (::1) op.DefaultKeywords.php .php&action=addcategory&categoryid=2
+Sep 04 02:21:01  [info] admin (::1) op.DefaultKeywords.php .php&action=removecategory&categoryid=2
+Sep 04 02:21:09  [info] admin (::1) op.DefaultKeywords.php .php&action=addcategory&categoryid=3
+Sep 04 02:21:23  [info] admin (::1) op.Categories.php .php&action=addcategory&categoryid=1
+Sep 04 02:21:47  [info] admin (::1) op.AttributeMgr.php &action=addattrdef&name=属性１
+Sep 04 02:22:05  [info] admin (::1) op.CreateVersioningFiles.php?targetid=1&targetname3f0d3ca8e81787497acc8c0e731ab0c8=DMS 
+Sep 04 02:22:18  [error] admin (::1) out.RemoveLog.php?  UI::exitError error=不明なID pagetitle=管理ツール
+Sep 04 04:21:50  [error] admin (::1) op.ExtensionMgr.php  UI::exitError error=拡張機能アップロード中にエラーが発生しました。 pagetitle=管理ツール
+Sep 04 04:26:07  [info] admin (::1) op.CreateVersioningFiles.php?targetid=1&targetname3f0d3ca8e81787497acc8c0e731ab0c8=DMS 
+Sep 04 04:27:37  [info] admin (::1) op.SubstituteUser.php?userid=3&formtoken=b1ad58b1647feb644eeebd5a5d6a1674 ?userid=3
+Sep 04 04:28:03  [info] user (::1) op.Download.php?documentid=5&version=1 
+Sep 04 04:29:38  [info] user (::1) op.EditDocument.php ?documentid=5
+Sep 04 04:29:48  [info] user (::1) op.SetExpires.php ?documentid=5
+Sep 04 04:33:01  [error] Notification service 'email': Sending notification 'new_document_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 04 04:33:05  [error] Notification service 'email': Sending notification 'review_request_email_subject' to user 'nexus6user2023132432@gmail.com' (3) failed.
+Sep 04 04:33:05  [info] user (::1) op.AddDocument.php add document 6 in folder 1
+Sep 04 04:33:17  [info] user (::1) op.ResetSu.php 
+Sep 04 04:33:31  [info] admin (::1) op.SubstituteUser.php?userid=4&formtoken=b1ad58b1647feb644eeebd5a5d6a1674 ?userid=4
+Sep 04 04:34:35  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 04 04:34:39  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'nexus6user2023132432@gmail.com' (6) failed.
+Sep 04 04:34:43  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 04 04:34:47  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'nexus6user2023132432@gmail.com' (2) failed.
+Sep 04 04:34:51  [error] Notification service 'email': Sending notification 'approval_request_email_subject' to user 'nexus6user2023132432@gmail.com' (4) failed.
+Sep 04 04:34:51  [info] reviewer (::1) op.ReviewDocument.php documentid=6&version=1&reviewType=ind&reviewStatus=1
+Sep 04 04:35:23  [error] Notification service 'email': Sending notification 'approval_submit_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 04 04:35:27  [error] Notification service 'email': Sending notification 'approval_submit_email_subject' to user 'nexus6user2023132432@gmail.com' (6) failed.
+Sep 04 04:35:31  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 04 04:35:35  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'nexus6user2023132432@gmail.com' (2) failed.
+Sep 04 04:35:35  [info] reviewer (::1) op.ApproveDocument.php ?documentid=6&version=1&approvalType=ind&approvalStatus=1
+Sep 04 04:36:23  [info] reviewer (::1) op.ResetSu.php 
+Sep 04 04:36:32  [info] admin (::1) op.SubstituteUser.php?userid=4&formtoken=b1ad58b1647feb644eeebd5a5d6a1674 ?userid=4
+Sep 04 04:36:36  [info] reviewer (::1) op.ResetSu.php 
+Sep 04 04:36:40  [info] admin (::1) op.SubstituteUser.php?userid=3&formtoken=b1ad58b1647feb644eeebd5a5d6a1674 ?userid=3
+Sep 04 04:38:08  [info] user (::1) op.ResetSu.php 
+Sep 04 04:40:15  [info] admin (::1) op.Settings.php .php&action=savesettings
+Sep 04 04:40:27  [info] admin (::1) op.SubstituteUser.php?userid=3&formtoken=b1ad58b1647feb644eeebd5a5d6a1674 ?userid=3
+Sep 04 04:41:27  [info] user (::1) op.ResetSu.php 
+Sep 04 04:42:53  [info] admin (::1) op.Settings.php .php&action=savesettings
+Sep 04 04:43:03  [info] admin (::1) op.SubstituteUser.php?userid=3&formtoken=b1ad58b1647feb644eeebd5a5d6a1674 ?userid=3
+Sep 04 04:43:47  [error] Notification service 'email': Sending notification 'review_request_email_subject' to user 'nexus6user2023132432@gmail.com' (3) failed.
+Sep 04 04:43:47  [info] user (::1) op.AddDocument.php add document 7 in folder 1
+Sep 04 04:43:58  [error] Notification service 'email': Sending notification 'document_deleted_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 04 04:43:58  [info] user (::1) op.Ajax.php?command=deletedocument&id=6&formtoken=60a0cbbbc386b7056009481cbe328b3e delete document 6
+Sep 04 04:44:19  [info] user (::1) op.ResetSu.php 
+Sep 04 04:44:27  [info] admin (::1) op.SubstituteUser.php?userid=4&formtoken=b1ad58b1647feb644eeebd5a5d6a1674 ?userid=4
+Sep 04 04:44:42  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'nexus6user2023132432@gmail.com' (6) failed.
+Sep 04 04:44:46  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'nexus6user2023132432@gmail.com' (2) failed.
+Sep 04 04:44:50  [error] Notification service 'email': Sending notification 'approval_request_email_subject' to user 'nexus6user2023132432@gmail.com' (4) failed.
+Sep 04 04:44:50  [info] reviewer (::1) op.ReviewDocument.php documentid=7&version=1&reviewType=ind&reviewStatus=1
+Sep 04 04:45:10  [error] Notification service 'email': Sending notification 'approval_submit_email_subject' to user 'nexus6user2023132432@gmail.com' (6) failed.
+Sep 04 04:45:14  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'nexus6user2023132432@gmail.com' (2) failed.
+Sep 04 04:45:19  [error] Notification service 'email': Sending notification 'receipt_request_email_subject' to user 'nexus6user2023132432@gmail.com' (8) failed.
+Sep 04 04:45:19  [info] reviewer (::1) op.ApproveDocument.php ?documentid=7&version=1&approvalType=ind&approvalStatus=1
+Sep 04 04:45:35  [error] Notification service 'email': Sending notification 'receipt_submit_email_subject' to user 'nexus6user2023132432@gmail.com' (6) failed.
+Sep 04 04:45:35  [info] reviewer (::1) op.ReceiptDocument.php documentid=7&version=1
+Sep 04 04:45:56  [info] reviewer (::1) op.ResetSu.php 
+Sep 04 04:46:08  [info] admin (::1) op.SubstituteUser.php?userid=3&formtoken=b1ad58b1647feb644eeebd5a5d6a1674 ?userid=3
+Sep 04 04:47:16  [info] user (::1) op.SetRecipients.php ?documentid=7
+Sep 04 04:48:46  [info] user (::1) op.ResetSu.php 
+Sep 04 04:50:39  [info] admin (::1) op.ViewOnline.php?documentid=7&version=1 
+Sep 04 04:57:13  [info] admin (::1) op.Ajax.php?command=deletedocument&id=7&formtoken=60a0cbbbc386b7056009481cbe328b3e delete document 7
+Sep 04 04:57:42  [info] admin (::1) op.SubstituteUser.php?userid=3&formtoken=b1ad58b1647feb644eeebd5a5d6a1674 ?userid=3
+Sep 04 04:58:27  [error] Notification service 'email': Sending notification 'new_document_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 04 04:58:31  [error] Notification service 'email': Sending notification 'review_request_email_subject' to user 'nexus6user2023132432@gmail.com' (3) failed.
+Sep 04 04:58:31  [info] user (::1) op.AddDocument.php add document 8 in folder 1
+Sep 04 04:58:40  [info] user (::1) op.ResetSu.php 
+Sep 04 04:58:54  [info] admin (::1) op.SubstituteUser.php?userid=4&formtoken=b1ad58b1647feb644eeebd5a5d6a1674 ?userid=4
+Sep 04 04:59:25  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 04 04:59:29  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'nexus6user2023132432@gmail.com' (6) failed.
+Sep 04 04:59:33  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 04 04:59:37  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'nexus6user2023132432@gmail.com' (2) failed.
+Sep 04 04:59:42  [error] Notification service 'email': Sending notification 'approval_request_email_subject' to user 'nexus6user2023132432@gmail.com' (4) failed.
+Sep 04 04:59:42  [info] reviewer (::1) op.ReviewDocument.php documentid=8&version=1&reviewType=ind&reviewStatus=1
+Sep 04 04:59:55  [error] Notification service 'email': Sending notification 'approval_submit_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 04 04:59:59  [error] Notification service 'email': Sending notification 'approval_submit_email_subject' to user 'nexus6user2023132432@gmail.com' (6) failed.
+Sep 04 05:00:03  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 04 05:00:08  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'nexus6user2023132432@gmail.com' (2) failed.
+Sep 04 05:00:12  [error] Notification service 'email': Sending notification 'receipt_request_email_subject' to user 'nexus6user2023132432@gmail.com' (8) failed.
+Sep 04 05:00:12  [info] reviewer (::1) op.ApproveDocument.php ?documentid=8&version=1&approvalType=ind&approvalStatus=1
+Sep 04 05:00:29  [error] Notification service 'email': Sending notification 'receipt_submit_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 04 05:00:33  [error] Notification service 'email': Sending notification 'receipt_submit_email_subject' to user 'nexus6user2023132432@gmail.com' (6) failed.
+Sep 04 05:00:33  [info] reviewer (::1) op.ReceiptDocument.php documentid=8&version=1
+Sep 04 05:00:48  [info] reviewer (::1) op.ResetSu.php 
+Sep 04 05:00:54  [info] admin (::1) op.SubstituteUser.php?userid=3&formtoken=b1ad58b1647feb644eeebd5a5d6a1674 ?userid=3
+Sep 04 05:08:31  [info] user (::1) op.ResetSu.php 
+Sep 04 05:10:10  [error] admin (::1) op.ExtensionMgr.php  UI::exitError error=アップロードされたファイルはzipではありません pagetitle=管理ツール
+Sep 04 05:10:18  [info] admin (::1) op.ExtensionMgr.php 
+Sep 04 05:10:40  [info] admin (::1) op.ExtensionMgr.php 
+Sep 04 05:12:57  [info] -- (::1) op.Login.php 
+Sep 04 05:12:57  [info] Authentication service 'db'
+Sep 04 05:12:57  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 04 06:04:55  [info] -- (::1) op.Login.php 
+Sep 04 06:04:55  [info] Authentication service 'db'
+Sep 04 06:04:55  [info] Authentication service 'db': Authentication of user 'user' successful.
+Sep 04 06:08:45  [info] -- (::1) op.Login.php 
+Sep 04 06:08:45  [info] Authentication service 'db'
+Sep 04 06:08:45  [info] Authentication service 'db': Authentication of user 'user' successful.
+Sep 04 06:08:56  [error] Notification service 'email': Sending notification 'document_deleted_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 04 06:08:56  [info] user (::1) op.Ajax.php?command=deletedocument&id=8&formtoken=d2280c659f0683a2994f8da0a5dbe4aa delete document 8
+Sep 04 06:08:59  [info] user (::1) op.Ajax.php?command=deletedocument&id=5&formtoken=d2280c659f0683a2994f8da0a5dbe4aa delete document 5
+Sep 04 06:10:50  [info] -- (::1) op.Login.php 
+Sep 04 06:10:50  [info] Authentication service 'db'
+Sep 04 06:10:50  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 04 06:10:59  [info] admin (::1) op.Settings.php .php&action=savesettings

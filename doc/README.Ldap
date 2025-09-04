@@ -1,0 +1,118 @@
+Ldap configuration
+===================
+
+The configuration for authentication against an ldap server needs to be done
+in the `settings.xml` file using a text editor. It cannot be edited from within the
+web gui.
+
+SeedDMS supports ldap authentication using an Active Directory (AD) or a
+regular ldap server, e.g. openldap
+
+The location of the ldap server is specified in two parameters: `host` and
+`port`.  `host` can be either a plain hostname or an ldap URI, including the
+protocol, the host and optionally the port, e.g. `ldap://localhost:389`. In case
+of an URI the port in the configuration must remain empty.
+
+The authentication itself is a two step process which differs, depending on how
+to bind to the server. If the configuration sets `bindDN` and `bindPW`, those
+values will be used for a initial non anonymous bind to the ldap server
+otherwise an anonymous bind is executed.
+
+After the initial bind, a ldap search for either `uid=<username>` (ldap) or
+`sAMAccountName=<username>` (AD) below basedn is done. The purpose of this
+search is to retrieve a working bindDN which is then used to actually
+authenticate the user. In case of a successful anonymous first bind but a
+failed search (this seems to be the case when connecting to an AD), a second
+non anonymous bind is tried. The bindDN for that second bind will be either
+`uid=<username>,<basedn>` (ldap) or `<username>@<accountDomainName>` (AD).
+If the search after the first anonymous bind succeeds, the bindDN will be
+taken from the user's data in the ldap
+server. This bindDN will be used for a second bind using the users password.
+If the second bind succeeds the user is successfully authenticated.
+
+The data from the ldap server can be used to create or update an account in SeedDMS
+if the user trying to login does not exist yet, but was able to authenticate.
+This will only be done if 'authentication->restricted' in the configuration
+is set to false. In that case the common name (cn) and email address is taken
+from ldap. An already existing account in SeedDMS will be updated with data from
+ldap.
+
+Since version 5.1.35 and 6.0.28 the field name of the email address in ldap
+can be set with the attribute `mailField`. If it is not set it defaults to `mail`.
+
+Since version 5.1.34 and 6.0.27 the groups of a user stored in the ldap directory
+can be synchronised with the groups in SeedDMS. The ldap field storing
+the groups can be configured with the attribute `mailField`. This will add
+new groups in SeedDMS and assign them to the user.
+
+Using email address for authentication
+---------------------------------------
+
+Since version 5.1.34 and 6.0.27 the email can be used for authentication
+(requires `enableLoginByEmail` to be set in the configuration).
+This only works if the search after the first bind succeeds, which is usually
+only the case if it is a none anonymous bind.
+
+Notes on connecting to an AD
+-----------------------------
+
+The ldap authentication was originally implemented for classic LDAP servers
+like openldap. Before doing the actual authentication the user was searched
+by combining the user's login name and the configured baseDN. This search was
+preceded an anonymous or non anonymous bind (depending on wether bindDN and
+bindPWD are set). The only purpose of that search was to retrieve the
+distinguished name of the user, which was used in a second non anonymous bind
+for authenticating the user. If that search fails or didn't return a record
+(which seems to be always the case for an anonymous bind to an AD)
+a second non anonymous bind with the user's credentials is tried. That bind
+uses a dn which is quite different for classic ldap and AD (see examples
+below). The dn for an AD is of the form '<username>@<domain>'. '<domain>' is
+the string configured in the parameter `accountDomainName`.
+
+Examples
+---------
+
+### Anonymous bind to openldap on localhost, port 389
+
+- type = "ldap"
+- baseDN = "ou=users,dc=mycompany,dc=de"
+- host = "ldap://localhost"
+
+During authentication as user 'admin' the following steps are executed
+
+1. connect to ldap server at localhost:389
+2. do an anonymous bind 
+3.1 if the bind succeeds, search for `uid=admin` below basedn
+3.2 if the bind fails use `uid=admin,<basedn>` as dn and continue with step 5
+4.1. if search succeeds use the dn from the user
+4.2. if search fails use `uid=admin,<basedn>` as dn
+5. do a non anonymous bind with dn and password entered by user
+6. if step 5. succeeds the user is authenticated
+7. if `restricted` in the settings is *not* set another ldap search for the
+   user is executed to retrieve the full name, and the email and if
+8.1 the user doesn't exist in SeedDMS, the user will be created or
+8.2 the user exists in SeedDMS, the use will be updated
+
+If bindDN and bindPW are specified in the configuration, the second step
+will be a non anonymous bind.
+
+### Connecting to an AD
+
+- type = "AD"
+- baseDN = "ou=users,dc=mycompany,dc=de"
+- accountDomainName=mycompany
+- host = "ldap://localhost"
+
+During authentication as user 'admin' the following steps are executed
+
+1. connect to AD server at localhost:389
+2. do an anonymous bind (which usually succeeds)
+3. search for `uid=admin` below basedn (which usually returns an empty record)
+4. if search returns no data use `admin@<accountDomainName>` as dn
+5. do a non anonymous bind with dn and password entered by user
+6. if step 5. succeeds the user is authenticated
+7. if `restricted` in the settings is *not* set another ldap search for the
+   user is executed to retrieve the full name, and the email and if
+8.1 the user doesn't exist in SeedDMS, the user will be created or
+8.2 the user exists in SeedDMS, the use will be updated
+

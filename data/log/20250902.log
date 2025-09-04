@@ -1,0 +1,16 @@
+Sep 02 02:16:15  [info] -- (::1) op.Login.php 
+Sep 02 02:16:15  [info] Authentication service 'db'
+Sep 02 02:16:15  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 02 05:25:51  [info] -- (::1) op.Login.php 
+Sep 02 05:25:51  [info] Authentication service 'db'
+Sep 02 05:25:51  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 02 05:26:48  [info] admin (::1) op.AddDocument.php add document 1 in folder 1
+Sep 02 05:35:51  [info] -- (::1) op.Login.php 
+Sep 02 05:35:51  [info] Authentication service 'db'
+Sep 02 05:35:51  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 02 06:02:22  [info] -- (::1) op.Login.php 
+Sep 02 06:02:22  [info] Authentication service 'db'
+Sep 02 06:02:22  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 02 06:08:43  [info] -- (::1) op.Login.php 
+Sep 02 06:08:43  [info] Authentication service 'db'
+Sep 02 06:08:43  [info] Authentication service 'db': Authentication of user 'admin' successful.

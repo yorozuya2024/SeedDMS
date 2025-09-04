@@ -1,0 +1,178 @@
+Sep 03 00:24:18  [info] -- (::1) op.Login.php 
+Sep 03 00:24:18  [info] Authentication service 'db'
+Sep 03 00:24:18  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 00:31:41  [info] -- (::1) op.Login.php 
+Sep 03 00:31:41  [info] Authentication service 'db'
+Sep 03 00:31:41  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 00:41:06  [info] -- (::1) op.Login.php 
+Sep 03 00:41:06  [info] Authentication service 'db'
+Sep 03 00:41:06  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 00:48:36  [info] -- (::1) op.Login.php 
+Sep 03 00:48:36  [info] Authentication service 'db'
+Sep 03 00:48:36  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 01:37:00  [info] -- (::1) op.Login.php 
+Sep 03 01:37:00  [info] Authentication service 'db'
+Sep 03 01:37:00  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 01:39:44  [info] -- (::1) op.Login.php 
+Sep 03 01:39:44  [info] Authentication service 'db'
+Sep 03 01:39:44  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 01:46:05  [info] -- (::1) op.Login.php 
+Sep 03 01:46:05  [info] Authentication service 'db'
+Sep 03 01:46:05  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 01:46:34  [info] admin (::1) op.ClearCache.php 
+Sep 03 02:01:51  [info] -- (::1) op.Login.php 
+Sep 03 02:01:51  [info] Authentication service 'db'
+Sep 03 02:01:51  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 02:17:28  [info] -- (::1) op.Login.php 
+Sep 03 02:17:28  [info] Authentication service 'db'
+Sep 03 02:17:28  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 04:41:15  [info] -- (::1) op.Login.php 
+Sep 03 04:41:15  [info] Authentication service 'db'
+Sep 03 04:41:15  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 04:45:01  [info] -- (::1) op.Login.php 
+Sep 03 04:45:01  [info] Authentication service 'db'
+Sep 03 04:45:01  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 04:46:44  [info] admin (::1) op.ViewOnline.php?documentid=1&version=1 
+Sep 03 04:47:17  [info] admin (::1) op.LockDocument.php?documentid=1&formtoken=90f195325f55baa095fd3811c0a05adc 
+Sep 03 04:47:21  [info] admin (::1) op.UnlockDocument.php?documentid=1&formtoken=2397fc3bf3af6334ddd6b9071ab223f0 
+Sep 03 05:26:06  [info] -- (::1) op.Login.php 
+Sep 03 05:26:06  [info] Authentication service 'db'
+Sep 03 05:26:06  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 05:26:47  [info] admin (::1) op.Settings.php .php&action=savesettings
+Sep 03 05:27:29  [info] -- (::1) op.Login.php 
+Sep 03 05:27:29  [info] Authentication service 'db'
+Sep 03 05:27:29  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 05:32:27  [info] admin (::1) op.UsrMgr.php .php&action=adduser&login=user
+Sep 03 05:32:48  [info] -- (::1) op.Login.php 
+Sep 03 05:32:48  [info] Authentication service 'db'
+Sep 03 05:32:48  [info] Authentication service 'db': Authentication of user 'user' successful.
+Sep 03 05:33:20  [info] -- (::1) op.Login.php 
+Sep 03 05:33:20  [info] Authentication service 'db'
+Sep 03 05:33:20  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 05:33:31  [info] admin (::1) op.RemoveDocument.php delete document 1
+Sep 03 05:33:43  [info] -- (::1) op.Login.php 
+Sep 03 05:33:43  [info] Authentication service 'db'
+Sep 03 05:33:43  [info] Authentication service 'db': Authentication of user 'user' successful.
+Sep 03 05:34:20  [info] -- (::1) op.Login.php 
+Sep 03 05:34:20  [info] Authentication service 'db'
+Sep 03 05:34:20  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 05:35:15  [info] admin (::1) op.FolderAccess.php?formtoken=035d998d25e7ad64cdffc208ae5acdd8&folderid=1&action=setdefault&mode=4 
+Sep 03 05:35:22  [info] admin (::1) op.FolderAccess.php?formtoken=035d998d25e7ad64cdffc208ae5acdd8&action=setowner&folderid=1&ownerid=3 
+Sep 03 05:35:29  [info] admin (::1) op.FolderAccess.php?formtoken=035d998d25e7ad64cdffc208ae5acdd8&folderid=1&action=setdefault&mode=4 
+Sep 03 05:35:42  [info] -- (::1) op.Login.php 
+Sep 03 05:35:42  [info] Authentication service 'db'
+Sep 03 05:35:42  [info] Authentication service 'db': Authentication of user 'user' successful.
+Sep 03 05:36:36  [info] user (::1) op.AddDocument.php add document 2 in folder 1
+Sep 03 05:37:26  [info] -- (::1) op.Login.php 
+Sep 03 05:37:26  [info] Authentication service 'db'
+Sep 03 05:37:26  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 05:37:46  [info] admin (::1) op.FolderAccess.php?formtoken=8e42b3b21db3b457e7c448bde8eca1e6&folderid=1&action=addaccess&userid=1&groupid=-1&mode=4 
+Sep 03 05:37:50  [info] admin (::1) op.FolderAccess.php?formtoken=8e42b3b21db3b457e7c448bde8eca1e6&folderid=1&action=editaccess&userid=1&mode=4 
+Sep 03 05:38:04  [info] -- (::1) op.Login.php 
+Sep 03 05:38:04  [info] Authentication service 'db'
+Sep 03 05:38:04  [info] Authentication service 'db': Authentication of user 'user' successful.
+Sep 03 05:38:37  [info] -- (::1) op.Login.php 
+Sep 03 05:38:37  [info] Authentication service 'db'
+Sep 03 05:38:37  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 05:39:44  [info] admin (::1) op.ViewOnline.php?documentid=2&version=1 
+Sep 03 05:40:11  [info] admin (::1) op.DocumentAccess.php?formtoken=a5bed2ede2eef3b1844f6e6d562a5c64&documentid=2&action=notinherit&mode=copy 
+Sep 03 05:40:29  [info] admin (::1) op.DocumentAccess.php?formtoken=a5bed2ede2eef3b1844f6e6d562a5c64&documentid=2&action=addaccess&userid=3&groupid=-1&mode=4 
+Sep 03 05:40:43  [info] -- (::1) op.Login.php 
+Sep 03 05:40:43  [info] Authentication service 'db'
+Sep 03 05:40:43  [info] Authentication service 'db': Authentication of user 'user' successful.
+Sep 03 05:41:44  [info] -- (::1) op.Login.php 
+Sep 03 05:41:44  [info] Authentication service 'db'
+Sep 03 05:41:44  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 05:42:20  [info] admin (::1) op.UsrMgr.php .php&action=edituser&userid=1
+Sep 03 05:42:34  [info] admin (::1) op.UsrMgr.php .php&action=edituser&userid=3
+Sep 03 05:42:42  [info] -- (::1) op.Login.php 
+Sep 03 05:42:42  [info] Authentication service 'db'
+Sep 03 05:42:42  [info] Authentication service 'db': Authentication of user 'user' successful.
+Sep 03 05:43:49  [info] -- (::1) op.Login.php 
+Sep 03 05:43:49  [info] Authentication service 'db'
+Sep 03 05:43:49  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 05:44:25  [info] -- (::1) op.Login.php 
+Sep 03 05:44:25  [info] Authentication service 'db'
+Sep 03 05:44:25  [info] Authentication service 'db': Authentication of user 'user' successful.
+Sep 03 05:44:51  [info] user (::1) op.FolderAccess.php?formtoken=dbf0657f9901532246da02157e57f880&folderid=1&action=addaccess&userid=3&groupid=-1&mode=4 
+Sep 03 05:46:07  [info] -- (::1) op.Login.php 
+Sep 03 05:46:07  [info] Authentication service 'db'
+Sep 03 05:46:07  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 05:47:07  [info] admin (::1) op.UsrMgr.php .php&action=edituser&userid=1
+Sep 03 05:47:21  [info] admin (::1) op.UsrMgr.php .php&action=edituser&userid=3
+Sep 03 05:48:26  [info] admin (::1) op.GroupMgr.php &action=addgroup&name=開発グループ一課
+Sep 03 05:48:36  [info] admin (::1) op.GroupMgr.php ?groupid=1&userid=1&action=addmember
+Sep 03 05:48:48  [info] admin (::1) op.GroupMgr.php ?groupid=1&userid=3&action=addmember
+Sep 03 05:49:20  [info] admin (::1) op.UsrMgr.php .php&action=edituser&userid=1
+Sep 03 05:49:40  [info] admin (::1) op.UsrMgr.php .php&action=edituser&userid=3
+Sep 03 05:49:56  [info] -- (::1) op.Login.php 
+Sep 03 05:49:56  [info] Authentication service 'db'
+Sep 03 05:49:56  [info] Authentication service 'db': Authentication of user 'user' successful.
+Sep 03 05:51:14  [info] user (::1) op.RemoveDocument.php delete document 2
+Sep 03 05:52:17  [info] -- (::1) op.Login.php 
+Sep 03 05:52:17  [info] Authentication service 'db'
+Sep 03 05:52:17  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 05:53:16  [info] admin (::1) op.RoleMgr.php .php&action=editrole&roleid=1
+Sep 03 06:44:08  [info] admin (::1) op.AddDocument.php add document 3 in folder 1
+Sep 03 06:45:39  [error] admin (::1) op.UpdateDocument.php  UI::exitError error=新しいバージョンは現在のバージョンと同じです。 pagetitle=文書「週報」
+Sep 03 06:45:48  [info] admin (::1) op.RemoveDocument.php delete document 3
+Sep 03 06:48:03  [info] admin (::1) op.UsrMgr.php .php&action=edituser&userid=1
+Sep 03 06:48:13  [info] admin (::1) op.UsrMgr.php .php&action=edituser&userid=1
+Sep 03 06:48:50  [error] Notification service 'email': Sending notification 'review_request_email_subject' to user 'nexus6user2023132432@gmail.com' (3) failed.
+Sep 03 06:48:54  [error] Notification service 'email': Sending notification 'review_request_email_subject' to user 'info@seeddms.org' (3) failed.
+Sep 03 06:48:58  [error] Notification service 'email': Sending notification 'review_request_email_subject' to user 'nexus6user2023132432@gmail.com' (3) failed.
+Sep 03 06:48:58  [info] admin (::1) op.AddDocument.php add document 4 in folder 1
+Sep 03 06:49:16  [info] -- (::1) op.Login.php 
+Sep 03 06:49:16  [info] Authentication service 'db'
+Sep 03 06:49:16  [info] Authentication service 'db': Authentication of user 'user' successful.
+Sep 03 06:49:51  [info] user (::1) op.ViewOnline.php?documentid=4&version=1 
+Sep 03 06:50:12  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'info@seeddms.org' (6) failed.
+Sep 03 06:50:12  [info] user (::1) op.ReviewDocument.php documentid=4&version=1&reviewType=ind&reviewStatus=1
+Sep 03 06:50:28  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'info@seeddms.org' (6) failed.
+Sep 03 06:50:32  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'info@seeddms.org' (2) failed.
+Sep 03 06:50:36  [error] Notification service 'email': Sending notification 'approval_request_email_subject' to user 'nexus6user2023132432@gmail.com' (4) failed.
+Sep 03 06:50:40  [error] Notification service 'email': Sending notification 'approval_request_email_subject' to user 'info@seeddms.org' (4) failed.
+Sep 03 06:50:44  [error] Notification service 'email': Sending notification 'approval_request_email_subject' to user 'nexus6user2023132432@gmail.com' (4) failed.
+Sep 03 06:50:44  [info] user (::1) op.ReviewDocument.php documentid=4&version=1&reviewType=grp&reviewStatus=1
+Sep 03 06:51:15  [error] Notification service 'email': Sending notification 'approval_submit_email_subject' to user 'info@seeddms.org' (6) failed.
+Sep 03 06:51:15  [info] user (::1) op.ApproveDocument.php ?documentid=4&version=1&approvalType=ind&approvalStatus=1
+Sep 03 06:51:25  [error] Notification service 'email': Sending notification 'approval_submit_email_subject' to user 'info@seeddms.org' (6) failed.
+Sep 03 06:51:29  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'info@seeddms.org' (2) failed.
+Sep 03 06:51:29  [info] user (::1) op.ApproveDocument.php ?documentid=4&version=1&approvalType=grp&approvalStatus=1
+Sep 03 06:51:46  [info] user (::1) op.RemoveDocument.php delete document 4
+Sep 03 06:52:04  [info] -- (::1) op.Login.php 
+Sep 03 06:52:04  [info] Authentication service 'db'
+Sep 03 06:52:04  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 06:52:23  [info] admin (::1) op.UsrMgr.php .php&action=edituser&userid=3
+Sep 03 06:52:36  [info] -- (::1) op.Login.php 
+Sep 03 06:52:36  [info] Authentication service 'db'
+Sep 03 06:52:36  [info] Authentication service 'db': Authentication of user 'user' successful.
+Sep 03 06:54:11  [info] -- (::1) op.Login.php 
+Sep 03 06:54:11  [info] Authentication service 'db'
+Sep 03 06:54:11  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 03 06:55:26  [info] admin (::1) op.UsrMgr.php .php&action=adduser&login=reviewer
+Sep 03 06:56:25  [error] admin (::1) op.UsrMgr.php  UI::exitError error=ユーザーは既に存在します。 pagetitle=管理ツール
+Sep 03 06:56:54  [info] admin (::1) op.UsrMgr.php .php&action=edituser&userid=3
+Sep 03 06:57:07  [info] -- (::1) op.Login.php 
+Sep 03 06:57:07  [info] Authentication service 'db'
+Sep 03 06:57:07  [info] Authentication service 'db': Authentication of user 'user' successful.
+Sep 03 06:57:44  [error] Notification service 'email': Sending notification 'review_request_email_subject' to user 'nexus6user2023132432@gmail.com' (3) failed.
+Sep 03 06:57:44  [info] user (::1) op.AddDocument.php add document 5 in folder 1
+Sep 03 06:58:01  [info] -- (::1) op.Login.php 
+Sep 03 06:58:01  [info] Authentication service 'db'
+Sep 03 06:58:01  [info] Authentication service 'db': Authentication of user 'reviewer' successful.
+Sep 03 06:58:26  [error] Notification service 'email': Sending notification 'review_submit_email_subject' to user 'nexus6user2023132432@gmail.com' (6) failed.
+Sep 03 06:58:30  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'nexus6user2023132432@gmail.com' (2) failed.
+Sep 03 06:58:34  [error] Notification service 'email': Sending notification 'approval_request_email_subject' to user 'nexus6user2023132432@gmail.com' (4) failed.
+Sep 03 06:58:34  [info] reviewer (::1) op.ReviewDocument.php documentid=5&version=1&reviewType=ind&reviewStatus=1
+Sep 03 06:58:55  [error] Notification service 'email': Sending notification 'approval_submit_email_subject' to user 'nexus6user2023132432@gmail.com' (6) failed.
+Sep 03 06:58:59  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'nexus6user2023132432@gmail.com' (2) failed.
+Sep 03 06:58:59  [info] reviewer (::1) op.ApproveDocument.php ?documentid=5&version=1&approvalType=ind&approvalStatus=1
+Sep 03 08:07:46  [info] -- (::1) op.Login.php 
+Sep 03 08:07:46  [info] Authentication service 'db'
+Sep 03 08:07:46  [info] Authentication service 'db': Authentication of user 'user' successful.
+Sep 03 08:08:38  [info] user (::1) op.AddEvent.php ?name=電気代振り込み&from=1756857600&to=1756944000
+Sep 03 08:09:09  [info] user (::1) op.EditEvent.php ?eventid=1&name=電気代振り込み&from=1756857600&to=1756944000
+Sep 03 21:52:29  [info] -- (::1) op.Login.php 
+Sep 03 21:52:29  [info] Authentication service 'db'
+Sep 03 21:52:29  [info] Authentication service 'db': Authentication of user 'user' successful.

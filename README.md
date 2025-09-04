@@ -1,9 +1,11 @@
-SeedDMS 日本語化版 (Japanese Localization)
+SeedDMS 非公式日本語版 (Japanese Localization)
 
 概要 / Overview
-本リポジトリは、ドキュメント管理システム SeedDMS の日本語化版です。SeedDMS はオープンソースの文書管理システムで、GPL v2 ライセンスの下で公開されています。本リポジトリでは日本語化ファイルや設定例を含めています。
+本リポジトリは、ドキュメント管理システム SeedDMS 6.0.34の日本語化版です。SeedDMS はオープンソースの文書管理システムで、GPL v2 ライセンスの下で公開されています。本リポジトリでは日本語化ファイルや設定例を含めています。
+Windows環境でテストをしています。Laragon上で動作します。
 
-This repository contains the Japanese localization of SeedDMS, an open-source document management system released under GPL v2. It includes Japanese language files and configuration examples.
+This repository contains the Japanese localization of SeedDMS 6.0.34, an open-source document management system released under GPL v2. It includes Japanese language files and configuration examples.
+Tested in Windows environment. Runs on Laragon.
 
 特徴 / Features
 
@@ -13,7 +15,7 @@ This repository contains the Japanese localization of SeedDMS, an open-source do
 
 日本語のヘルプメッセージと通知メール
 
-SeedDMS バージョン 6.0 対応
+SeedDMS バージョン 6.0.34 対応
 
 Japanese login screen
 
@@ -21,7 +23,7 @@ Japanese menus, document attributes, workflows
 
 Japanese help messages and notification emails
 
-Compatible with SeedDMS version 6.0
+Compatible with SeedDMS version 6.0.34
 
 動作環境 / Requirements
 
@@ -33,7 +35,7 @@ Webサーバ（Apache, Nginx 等）
 
 SeedDMS 6.0 本体
 
-PHP 7.4 or later
+PHP 8.3 or later
 
 MySQL / MariaDB
 
@@ -44,8 +46,6 @@ SeedDMS version 6.0
 インストール方法 / Installation
 
 SeedDMS 本体をダウンロードし、サーバに配置
-
-本リポジトリの languages/ja フォルダを SeedDMS の languages/ にコピー
 
 SeedDMS のログイン画面で言語を「日本語」に設定
 

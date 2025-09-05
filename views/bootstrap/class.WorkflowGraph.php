@@ -31,6 +31,10 @@
  */
 class SeedDMS_View_WorkflowGraph extends SeedDMS_Theme_Style {
 
+        //2025/09/05 add
+        public $workflow;   // ← これを追加した
+        public $wkflog;    // ← 今回の追加
+
 	function js() { /* {{{ */
 		$this->workflow = $this->params['workflow'];
 		/* curtransitions is a list of transition that shall be highlighted.

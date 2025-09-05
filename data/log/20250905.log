@@ -1,0 +1,77 @@
+Sep 05 00:10:12  [info] -- (::1) op.Login.php 
+Sep 05 00:10:12  [info] Authentication service 'db'
+Sep 05 00:10:12  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 05 00:11:11  [info] admin (::1) op.Settings.php .php&action=savesettings
+Sep 05 00:11:23  [info] admin (::1) op.SubstituteUser.php?userid=3&formtoken=0d06720472fb5574e89608fbf4be54c0 ?userid=3
+Sep 05 00:12:13  [error] Notification service 'email': Sending notification 'new_document_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 05 00:12:17  [error] Notification service 'email': Sending notification 'receipt_request_email_subject' to user 'nexus6user2023132432@gmail.com' (8) failed.
+Sep 05 00:12:17  [info] user (::1) op.AddDocument.php add document 9 in folder 1
+Sep 05 00:12:32  [info] user (::1) op.ResetSu.php 
+Sep 05 00:12:40  [info] admin (::1) op.SubstituteUser.php?userid=4&formtoken=0d06720472fb5574e89608fbf4be54c0 ?userid=4
+Sep 05 00:13:08  [info] reviewer (::1) op.ResetSu.php 
+Sep 05 00:13:15  [info] admin (::1) op.SubstituteUser.php?userid=3&formtoken=0d06720472fb5574e89608fbf4be54c0 ?userid=3
+Sep 05 00:13:40  [error] Notification service 'email': Sending notification 'document_status_changed_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 05 00:13:40  [info] user (::1) op.OverrideContentStatus.php ?documentid=9
+Sep 05 00:14:11  [info] user (::1) op.ResetSu.php 
+Sep 05 00:15:17  [info] admin (::1) op.WorkflowActionsMgr.php .php&action=addworkflowaction&name=テスト
+Sep 05 00:15:49  [info] admin (::1) op.WorkflowStatesMgr.php .php&action=addworkflowstate&name=テスト
+Sep 05 00:16:10  [info] admin (::1) op.WorkflowMgr.php .php&action=addworkflow&name=ワークフロー
+Sep 05 00:16:23  [info] admin (::1) op.SetWorkflow.php ?documentid=9
+Sep 05 00:16:42  [info] admin (::1) op.SubstituteUser.php?userid=4&formtoken=0d06720472fb5574e89608fbf4be54c0 ?userid=4
+Sep 05 00:17:34  [info] reviewer (::1) op.ResetSu.php 
+Sep 05 00:18:40  [info] admin (::1) op.RemoveWorkflowState.php?workflowstateid=1&formtoken=abe768e0853aa01725171b036a9d905a ?workflowstateid=1
+Sep 05 00:19:00  [info] admin (::1) op.WorkflowStatesMgr.php .php&action=addworkflowstate&name=課長
+Sep 05 00:19:11  [info] admin (::1) op.WorkflowStatesMgr.php .php&action=addworkflowstate&name=部長
+Sep 05 00:19:31  [info] admin (::1) op.WorkflowMgr.php .php&action=addworkflow&name=ワークフロー
+Sep 05 00:19:50  [info] admin (::1) op.AddTransitionToWorkflow.php ?workflow=2&transition1
+Sep 05 00:20:18  [info] admin (::1) op.WorkflowActionsMgr.php .php&action=editworkflowaction&workflowactionid=1
+Sep 05 00:21:16  [info] admin (::1) op.WorkflowActionsMgr.php .php&action=addworkflowaction&name=受領
+Sep 05 00:21:39  [error] admin (::1) op.AddTransitionToWorkflow.php  UI::exitError error=開始状態と終了状態が同じです pagetitle=**workflow_title**
+Sep 05 00:22:34  [info] admin (::1) op.WorkflowStatesMgr.php .php&action=addworkflowstate&name=主任
+Sep 05 00:22:53  [info] admin (::1) op.AddTransitionToWorkflow.php ?workflow=2&transition2
+Sep 05 00:22:58  [info] admin (::1) op.RemoveTransitionFromWorkflow.php ?workflow=2&transition1
+Sep 05 00:23:10  [error] admin (::1) op.AddTransitionToWorkflow.php  UI::exitError error=遷移用のユーザー/グループがありません pagetitle=**workflow_title**
+Sep 05 00:23:20  [info] admin (::1) op.AddTransitionToWorkflow.php ?workflow=2&transition3
+Sep 05 00:23:44  [error] admin (::1) op.AddTransitionToWorkflow.php  UI::exitError error=開始状態と終了状態が同じです pagetitle=**workflow_title**
+Sep 05 00:23:53  [info] admin (::1) op.SubstituteUser.php?userid=3&formtoken=0d06720472fb5574e89608fbf4be54c0 ?userid=3
+Sep 05 00:24:04  [info] user (::1) op.SetWorkflow.php ?documentid=9
+Sep 05 00:24:35  [info] user (::1) op.ResetSu.php 
+Sep 05 00:24:55  [info] admin (::1) op.WorkflowMgr.php .php&action=editworkflow&workflowid=2
+Sep 05 00:25:14  [info] -- (::1) op.Login.php 
+Sep 05 00:25:14  [info] Authentication service 'db'
+Sep 05 00:25:14  [info] Authentication service 'db': Authentication of user 'user' successful.
+Sep 05 00:25:38  [error] Notification service 'email': Sending notification 'document_deleted_email_subject' to user 'nexus6user2023132432@gmail.com' (1) failed.
+Sep 05 00:25:38  [info] user (::1) op.RemoveDocument.php delete document 9
+Sep 05 00:26:01  [info] user (::1) op.AddDocument.php add document 10 in folder 1
+Sep 05 00:26:26  [info] -- (::1) op.Login.php 
+Sep 05 00:26:26  [info] Authentication service 'db'
+Sep 05 00:26:26  [info] Authentication service 'db': Authentication of user 'reviewer' successful.
+Sep 05 00:26:44  [info] reviewer (::1) op.TriggerWorkflow.php ?documentid=10&version1
+Sep 05 00:26:58  [info] reviewer (::1) op.TriggerWorkflow.php ?documentid=10&version1
+Sep 05 04:58:46  [info] -- (::1) op.Login.php 
+Sep 05 04:58:46  [info] Authentication service 'db'
+Sep 05 04:58:46  [info] Authentication service 'db': Authentication of user 'admin' successful.
+Sep 05 04:59:17  [info] admin (::1) op.WorkflowStatesMgr.php .php&action=editworkflowstate&workflowstateid=4
+Sep 05 04:59:28  [info] admin (::1) op.WorkflowStatesMgr.php .php&action=editworkflowstate&workflowstateid=2
+Sep 05 05:02:10  [info] admin (::1) op.WorkflowStatesMgr.php .php&action=editworkflowstate&workflowstateid=4
+Sep 05 05:02:46  [info] admin (::1) op.WorkflowStatesMgr.php .php&action=editworkflowstate&workflowstateid=2
+Sep 05 05:03:12  [info] admin (::1) op.WorkflowStatesMgr.php .php&action=editworkflowstate&workflowstateid=3
+Sep 05 05:03:33  [info] admin (::1) op.WorkflowStatesMgr.php .php&action=addworkflowstate&name=マネージャ承認済み
+Sep 05 05:04:32  [info] admin (::1) op.WorkflowStatesMgr.php .php&action=addworkflowstate&name=未提出
+Sep 05 05:04:46  [info] admin (::1) op.RemoveTransitionFromWorkflow.php ?workflow=2&transition2
+Sep 05 05:04:50  [info] admin (::1) op.RemoveTransitionFromWorkflow.php ?workflow=2&transition3
+Sep 05 05:05:14  [info] admin (::1) op.AddTransitionToWorkflow.php ?workflow=2&transition4
+Sep 05 05:08:44  [info] admin (::1) op.WorkflowMgr.php .php&action=editworkflow&workflowid=2
+Sep 05 05:09:05  [info] admin (::1) op.AddTransitionToWorkflow.php ?workflow=2&transition5
+Sep 05 05:09:30  [error] admin (::1) op.AddTransitionToWorkflow.php  UI::exitError error=開始状態と終了状態が同じです pagetitle=**workflow_title**
+Sep 05 05:09:42  [info] admin (::1) op.AddTransitionToWorkflow.php ?workflow=2&transition6
+Sep 05 05:09:56  [info] admin (::1) op.AddTransitionToWorkflow.php ?workflow=2&transition7
+Sep 05 05:10:32  [info] admin (::1) op.WorkflowStatesMgr.php .php&action=editworkflowstate&workflowstateid=5
+Sep 05 05:12:07  [info] admin (::1) op.UsrMgr.php .php&action=adduser&login=manager
+Sep 05 05:12:29  [info] admin (::1) op.RemoveTransitionFromWorkflow.php ?workflow=2&transition6
+Sep 05 05:12:39  [info] admin (::1) op.AddTransitionToWorkflow.php ?workflow=2&transition8
+Sep 05 05:12:52  [info] admin (::1) op.AddTransitionToWorkflow.php ?workflow=2&transition9
+Sep 05 05:13:22  [info] admin (::1) op.RemoveTransitionFromWorkflow.php ?workflow=2&transition7
+Sep 05 05:13:53  [info] admin (::1) op.AddTransitionToWorkflow.php ?workflow=2&transition10
+Sep 05 05:16:24  [info] admin (::1) op.WorkflowStatesMgr.php .php&action=addworkflowstate&name=test
+Sep 05 05:16:35  [info] admin (::1) op.RemoveWorkflowState.php?workflowstateid=7&formtoken=b78ec4b24aca79f2d39ae5dd328bf5a8 ?workflowstateid=7
